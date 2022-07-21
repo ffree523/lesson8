@@ -5,7 +5,7 @@ body {
 }
 .container {
     display: flex;
-    margin: 400px 700px;
+    margin: 400px auto;
     justify-content: center;
     align-content: center;
     width: 700px;
@@ -23,7 +23,6 @@ body {
     padding: 0px 35px 0px 35px;
 }
 .number1 {
-    width: 200px;
     height: 22px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -31,6 +30,7 @@ body {
     line-height: 22px;
     text-align: center;
     color: #000000;
+    margin: 0px;
 }
 .number1-1 {
     width: 200px;
@@ -41,6 +41,8 @@ body {
     line-height: 18px;
     text-align: center;
     color: #000000;
+    padding: 10px 20px 10px 0px;
+    margin: 5px 2px;
 }
 
 
